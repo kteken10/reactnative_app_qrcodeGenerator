@@ -7,7 +7,7 @@
     <img alt="React Native" src="https://img.shields.io/badge/React%20Native-v0.73-blue.svg?style=flat-square" />
   </a>
   <a href="https://expo.dev/">
-    <img alt="Expo" src="https://img.shields.io/badge/Expo-v52.0.46-black.svg?style=flat-square" />
+    <img alt="Expo" src="https://img.shields.io/badge/Expo-v50.0-black.svg?style=flat-square" />
   </a>
   <a href="https://github.com/user/repo-name/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" />
@@ -27,17 +27,17 @@ This application allows you to generate QR codes in a simple and intuitive way f
 Once the QR code is generated, you can easily share it or save it to your gallery.
 
 ## 💻 Demo
-
-<div align="center">
-  <div style="display: inline-block; margin: 0 10px; text-align: center;">
-    <img src="https://github.com/user-attachments/assets/f768a4de-031f-4263-ae1e-47a1ce451c33" alt="Screenshot 1" width="300" />
-    <p><em>Home screen with selection of QR code types</em></p>
-  </div>
-  <div style="display: inline-block; margin: 0 10px; text-align: center;">
-    <img src="https://github.com/user-attachments/assets/b5a21018-364e-4730-89c8-5f68fafa49b6" alt="Screenshot 2" width="300" />
-    <p><em>QR code generation interface with customization options</em></p>
-  </div>
-</div>
+<p align="center">
+  <kbd>
+    <img src="https://github.com/user-attachments/assets/f768a4de-031f-4263-ae1e-47a1ce451c33" width="300" /><br>
+    <em>Home screen with selection of QR code types</em>
+  </kbd>
+  &nbsp;&nbsp;&nbsp;
+  <kbd>
+    <img src="https://github.com/user-attachments/assets/b5a21018-364e-4730-89c8-5f68fafa49b6" width="300" /><br>
+    <em>QR code generation interface with customization options</em>
+  </kbd>
+</p>
 
 ## 🚀 Features
 - Intuitive and modern user interface
