@@ -7,7 +7,7 @@
     <img alt="React Native" src="https://img.shields.io/badge/React%20Native-v0.73-blue.svg?style=flat-square" />
   </a>
   <a href="https://expo.dev/">
-    <img alt="Expo" src="https://img.shields.io/badge/Expo-v50.0-black.svg?style=flat-square" />
+    <img alt="Expo" src="https://img.shields.io/badge/Expo-v52.0.46-black.svg?style=flat-square" />
   </a>
   <a href="https://github.com/user/repo-name/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" />
