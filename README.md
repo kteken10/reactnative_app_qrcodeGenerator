@@ -64,19 +64,19 @@ Une application de messagerie complète développée avec Flutter et Firebase.
   &nbsp;&nbsp;&nbsp;
   <kbd>
     <img src="https://github.com/user-attachments/assets/07e71b34-7d5d-4926-b36e-0c700df76554" width="300" /><br>
-    <em>Chat interface</em>
+    <em>Sign Up Screens</em>
   </kbd>
 </p>
 
 <p align="center">
   <kbd>
     <img src="https://github.com/user-attachments/assets/0f0f16b8-dfa9-4689-9eb2-75967c0e1a71" width="300" /><br>
-    <em>Story view screen</em>
+    <em>AddContact Screen</em>
   </kbd>
   &nbsp;&nbsp;&nbsp;
   <kbd>
     <img src="https://github.com/user-attachments/assets/2dbacdc7-b213-43fc-9f9b-c90438b15f32" width="300" /><br>
-    <em>Settings and theme screen</em>
+    <em>Chat</em>
   </kbd>
 </p>
 
