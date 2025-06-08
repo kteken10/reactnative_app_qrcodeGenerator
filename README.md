@@ -1,4 +1,4 @@
-<h1 align="center">Add commentMore actions
+<h1 align="center">
   <img alt="logo" src="./assets/icon.png" width="124px" style="border-radius:10px"/><br/>
 ✨ QR Code Generator ✨</h1>
 
