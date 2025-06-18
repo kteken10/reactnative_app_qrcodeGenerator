@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://reactnative.dev/">
     <img alt="React Native" src="https://img.shields.io/badge/React%20Native-v0.73-blue.svg?style=flat-square" />
-  </a>
+  </a>s
   <a href="https://expo.dev/">
     <img alt="Expo" src="https://img.shields.io/badge/Expo-v50.0-black.svg?style=flat-square" />
   </a>
@@ -86,15 +86,59 @@ pnpm android
 
 ## 🧩 Project Structure
 The project is based on [Obytes starter](https://starter.obytes.com) and follows an organized structure:
+## 🛠️ Architecture Technique
 
-## 📖 Documentation
-- [Rules and Conventions](https://starter.obytes.com/getting-started/rules-and-conventions/)
-- [Project structure](https://starter.obytes.com/getting-started/project-structure)
-- [Environment vars and config](https://starter.obytes.com/getting-started/environment-vars-config)
-- [UI and Theming](https://starter.obytes.com/ui-and-theme/ui-theming)
-- [Components](https://starter.obytes.com/ui-and-theme/components)
-- [Forms](https://starter.obytes.com/ui-and-theme/Forms)
-- [Data fetching](https://starter.obytes.com/guides/data-fetching)
+```mermaid
+graph TD
+  A[React Native Frontend] --> B[QR Code Generator (react-native-qrcode-svg)]
+  A --> C[Image Picker (Expo ImagePicker)]
+  A --> D[Capture (react-native-view-shot)]
+  A --> E[Share/Save (Expo Sharing)]
+  B --> F[QR Code Customization Layer]
+  D --> G[Gallery Save Option]
+```
+
+
+## 📦 Technologies Utilisées
+
+| Technologie             | Utilisation                             |
+| ----------------------- | --------------------------------------- |
+| React Native            | Base du projet mobile                   |
+| Expo                    | Outils de développement et build        |
+| react-native-qrcode-svg | Génération des QR codes                 |
+| Expo Image Picker       | Choix et capture d'images               |
+| react-native-view-shot  | Capture d'écran de composants           |
+| Expo Sharing            | Partage de fichiers                     |
+| NativeWind              | Styling avec Tailwind pour React Native |
+| Iconsax React Native    | Librairie d’icônes                      |
+
+## 🚀 Installation
+
+```bash
+git https://github.com/kteken10/reactnative_qrcode_app
+cd reactnative_qrcode_app
+pnpm install
+```
+
+Pour lancer sur iOS :
+
+```bash
+pnpm ios
+```
+
+Pour lancer sur Android :
+
+```bash
+pnpm android
+```
+
+## 📋 Prérequis
+
+- Node.js LTS
+- pnpm
+- Expo CLI
+- VS Code ou Cursor
+  
 
 ## 🤝 Contribution
 Contributions are welcome! Feel free to open an issue or submit a pull request.
