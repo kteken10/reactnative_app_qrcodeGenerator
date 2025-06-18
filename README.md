@@ -90,12 +90,13 @@ The project is based on [Obytes starter](https://starter.obytes.com) and follows
 
 ```mermaid
 graph TD
-  A[React Native Frontend] --> B[QR Code Generator (react-native-qrcode-svg)]
-  A --> C[Image Picker (Expo ImagePicker)]
-  A --> D[Capture (react-native-view-shot)]
-  A --> E[Share/Save (Expo Sharing)]
-  B --> F[QR Code Customization Layer]
+  A[React Native Frontend] --> B[QR Code Generator - qrcode-svg]
+  A --> C[Image Picker - Expo]
+  A --> D[Capture - View Shot]
+  A --> E[Share/Save - Expo Sharing]
+  B --> F[QR Code Customization]
   D --> G[Gallery Save Option]
+
 ```
 
 
